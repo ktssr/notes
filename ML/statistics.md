@@ -111,8 +111,8 @@ summarization of data without modifying it at a specific time.
     - Variance (Average of the squared differences from the mean) (Gives spread at an overall level and spread is directly proportional to the variance)
       - Population variance (Variance of the entire population)
         
-        $$
+        $$\
         \sigma^2 = \frac{\sum_{i=1}^{N} (x_i - \mu)^2}{N}
-        $$
+        $$\
         Where N is the polulation size and $\mu$ is the mean.
 
