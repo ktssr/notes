@@ -112,12 +112,12 @@ summarization of data without modifying it at a specific time.
       - Population variance (Variance of the entire population)
         ```math
         \sigma^2 = \frac{\sum_{i=1}^{N} (x_i - \mu)^2}{N}\
-        ```
+    
         $\mu$ is the mean of the population and N is the population size.
       - Sample variance (Variance of a sample from the population)
         ```math
         s^2 = \frac{\sum_{i=1}^{n} (x_i - \bar{x})^2}{n-1}\
-        ```
+    
         $\bar{x}$ is the mean of the sample and n is the sample size.
         We use n-1 instead of n to correct for the bias in the sample variance. i.e the sample mean will be moved towards population mean.
         This is called Bessel's correction.
