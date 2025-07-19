@@ -115,3 +115,9 @@ summarization of data without modifying it at a specific time.
 
         $\mu$ is the mean of the population and N is the population size.
 
+      - Sample variance (Variance of a sample from the population)
+  
+        $s^2 = \frac{\sum_{i=1}^{n} (x_i - \bar{x})^2}{n-1}$
+
+        $\bar{x}$ is the mean of the sample and n is the sample size.
+
