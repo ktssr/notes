@@ -111,7 +111,7 @@ summarization of data without modifying it at a specific time.
     - Variance (Average of the squared differences from the mean) (Gives spread at an overall level and spread is directly proportional to the variance)
       - Population variance (Variance of the entire population)
         ```math
-        \sigma^2 = \frac{\sum_{i=1}^{N} (x_i - \mu)^2}{N}\
+        \sigma^2 = \frac{\sum_{i=1}^{N} (x_i - \mu)^2}{N}```
         
         $\mu$ is the mean of the population and N is the population size.
       - Sample variance (Variance of a sample from the population)
