@@ -110,14 +110,10 @@ summarization of data without modifying it at a specific time.
     - Mean deviation (Average of the absolute differences from the mean)(Ex: If the date is 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, then the mean is 5.5. The absolute differences from the mean are 4.5, 3.5, 2.5, 1.5, 0.5, 0.5, 1.5, 2.5, 3.5, 4.5. The mean deviation is the average of these differences, which is 2.5 i.e on an avg each value is 2.5 units away from the mean)
     - Variance (Average of the squared differences from the mean) (Gives spread at an overall level and spread is directly proportional to the variance)
       - Population variance (Variance of the entire population)
-        ```math
-        \sigma^2 = \frac{\sum_{i=1}^{N} (x_i - \mu)^2}{N}
-        ```
-         $\mu$ is the mean of the population and N is the population size.
+        $$\sigma^2 = \frac{\sum_{i=1}^{N} (x_i - \mu)^2}{N}$$
+        $\mu$ is the mean of the population and N is the population size.
       - Sample variance (Variance of a sample from the population)
-        $$
-        s^2 = \frac{\sum_{i=1}^{n} (x_i - \bar{x})^2}{n-1}
-        $$
+        $$s^2 = \frac{\sum_{i=1}^{n} (x_i - \bar{x})^2}{n-1}$$
         $\bar{x}$ is the mean of the sample and n is the sample size.
         We use n-1 instead of n to correct for the bias in the sample variance. i.e the sample mean will be moved towards population mean.
         This is called Bessel's correction.
