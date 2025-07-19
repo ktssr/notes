@@ -120,7 +120,6 @@ summarization of data without modifying it at a specific time.
         
         ```math
         s^2 = \frac{\sum_{i=1}^{n} (x_i - \bar{x})^2}{n-1}
-        ```
 
         $\bar{x}$ is the mean of the sample and n is the sample size.
         We use n-1 instead of n to correct for the bias in the sample variance. i.e the sample mean will be moved towards population mean.
