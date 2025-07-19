@@ -113,27 +113,8 @@ summarization of data without modifying it at a specific time.
         
         ```math
         \sigma^2 = \frac{\sum_{i=1}^{N} (x_i - \mu)^2}{N}
-        \
-
-        $\mu$ is the mean of the population and N is the population size.
-      - Sample variance (Variance of a sample from the population)
+        ```
         
-        ```math
-        s^2 = \frac{\sum_{i=1}^{n} (x_i - \bar{x})^2}{n-1}
-
-        $\bar{x}$ is the mean of the sample and n is the sample size.
-        We use n-1 instead of n to correct for the bias in the sample variance. i.e the sample mean will be moved towards population mean.
-        This is called Bessel's correction.
-    - Standard deviation (Square root of the variance. Since variance is squared, standard deviation is the square root of the variance to get the original units to know how spread out the data i). We can know in which standard deviation the data point lies. i.e 1 standard deviation away, 2 standard deviations away, etc.
-- Measures of shape
-    - Skewness (Asymmetry of the distribution)
-    - Kurtosis (Peakedness or flatness of the distribution)
-- Measures of association
-    - Covariance (Measure of how much two variables change together)
-    - Correlation (Measure of the strength and direction of a linear relationship between two variables)
-  
-
-> Imputation is the process of replacing missing data with mean if there are no outliers, median if there are outliers, or mode if there are multiple outliers.
 
 
 
