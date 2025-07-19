@@ -113,7 +113,7 @@ summarization of data without modifying it at a specific time.
         
         ```math
         \sigma^2 = \frac{\sum_{i=1}^{N} (x_i - \mu)^2}{N}
-        ```\
+        ```
         Hello
 
 
